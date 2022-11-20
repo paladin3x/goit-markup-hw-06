@@ -471,6 +471,21 @@ ul {
   background-color: var(--color-white);
   padding-bottom: 94px;
 }
+.work .ovarlay {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  opacity: 1;
+  width: 370px;
+  height: 70px;
+  align-items: center;
+}
+
+.work li {
+  position: relative;
+}
 
 .work-flex {
   margin-top: 50px;
@@ -516,9 +531,6 @@ ul {
   text-align: center;
 
   color: var(--second-black-text);
-}
-
-.team ul {
 }
 
 .persona {
