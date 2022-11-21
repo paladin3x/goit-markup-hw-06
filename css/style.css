@@ -491,11 +491,13 @@ ul {
 }
 
 .modal-form-label {
+  line-height: 1.16;
   margin-bottom: 10px;
   align-items: center;
 }
 
 .modal-form-wrapper {
+  margin-top: 4px;
   position: relative;
   height: 40px;
 }
